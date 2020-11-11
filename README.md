@@ -10,14 +10,14 @@ Since its announcement in 2016, the notion of Brexit has had an impact on numero
         ├── README.md
         ├── requirement.txt
         ├── datasets
-        │   ├── processed_data
-        |   |   ├── horizontal_bar.csv
-        |   |   ├── line_chart.csv
-        |   |   └── slope_chart.csv
-        │   └── raw_data
-        |       ├── companies.csv
-        |       ├── financials__long_term.csv
-        |       └── financials__short_term.csv
+        │   ├── raw_data
+        |   |    ├── companies.csv
+        |   |    ├── financials__long_term.csv
+        |   |    └── financials__short_term.csv
+        │   └── processed_data
+        |       ├── horizontal_bar.csv
+        |       ├── line_chart.csv
+        |       └── slope_chart.csv
         └── scripts
             ├── 00_data_preparation.ipynb
             ├── 01_visualization.ipynb
@@ -26,25 +26,22 @@ Since its announcement in 2016, the notion of Brexit has had an impact on numero
 
 ```
 
-#### raw_data
--   `companies.csv` -> 
-
-
 ## File Description
 ### datasets
-#### processed_data
--   `horizontal_bar.csv` -> 
--   `line_chart.csv` -> 
--   `slope_chart.csv` -> 
 #### raw_data
--   `companies.csv` -> 
--   `financials__long_term.csv` -> 
--   `financials__short_term.csv` -> 
+-   `companies.csv` -> List of companies along with the reference country/stock market
+-   `financials__long_term.csv` -> Monthly data-points spanning the years 2014 - 2018
+-   `financials__short_term.csv` -> Daily data-points in the vicinity of the Brexit Referendum
+
+#### processed_data
+-   `horizontal_bar.csv` -> Data for the horizontal bar chart
+-   `line_chart.csv` -> Data for the line chart
+-   `slope_chart.csv` -> Data for the slope charts
 
 ### scripts
--   `00_data_preparation.ipynb` -> 
--   `01_visualization.ipynb` -> 
+-   `00_data_preparation.ipynb` -> Exploratory data analysis and data preprocessing for visualization 
+-   `01_visualization.ipynb` -> Visualize data
 
 #### output
--   `visualization.pdf` -> 
+-   `visualization.pdf` -> Final visualization
 
