@@ -36,6 +36,8 @@ Since its announcement in 2016, the notion of Brexit has had an impact on numero
 -   `horizontal_bar.csv` -> 
 -   `line_chart.csv` -> 
 -   `slope_chart.csv` -> 
+#### raw_data
+-   `companies.csv` -> 
 -   `financials__long_term.csv` -> 
 -   `financials__short_term.csv` -> 
 
