@@ -9,7 +9,7 @@ Since its announcement in 2016, the notion of Brexit has had an impact on numero
         data-viz-mtp
         ├── README.md
         ├── requirement.txt
-        ├── Group7SMM635.docx
+        ├── Group7SMM635.pdf
         ├── datasets
         │   ├── raw_data
         |   |    ├── companies.csv
@@ -28,7 +28,8 @@ Since its announcement in 2016, the notion of Brexit has had an impact on numero
 ```
 
 ## File Description
--   `Group7SMM635.docx` -> Project report
+-   `requirements.txt` -> Python packages requirements
+-   `Group7SMM635.pdf` -> Project report
 ### datasets
 #### raw_data
 -   `companies.csv` -> List of companies along with the reference country/stock market
